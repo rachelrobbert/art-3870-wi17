@@ -2,3 +2,16 @@
 *{
   outline: 1px solid red;
 } /* helps to show me where everything is in the boxes*/
+
+/* header styles*/
+
+/* footer styles*/
+
+/* nav styles*/
+header h1{
+  background: pink;
+  color: navy;
+}
+
+
+/* main body styles*/
