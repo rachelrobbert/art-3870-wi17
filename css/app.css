@@ -1,17 +1,48 @@
 /*this is my stylesheet for my homepage*/
+/*
 *{
   outline: 1px solid red;
-} /* helps to show me where everything is in the boxes*/
+} /* helps to show me where everything is in the boxes*/ */
 
 /* header styles*/
 
 /* footer styles*/
 
 /* nav styles*/
-header h1{
-  background: pink;
-  color: navy;
+
+body{
+  background-image:repeating-linear(../images/headerlarge.jpg);
 }
+
+
+h1{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 400%;
+}
+
+h2{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 200%;
+
+}
+
+h6{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 100%;
+
+}
+
+figcaption{
+  text-align: center;
+}
+
+
+nav{
+  font-size: 130%;
+
+  font-family: 'Cabin Sketch', cursive;
+}
+
 
 
 /* main body styles*/
