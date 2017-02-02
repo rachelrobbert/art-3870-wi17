@@ -13,6 +13,7 @@ ShareTea - Union City - Careers
 </title>
 <link rel="stylesheet" href="css/foundation.css">
 <link rel="stylesheet" href="css/app.css">
+<script src="js/app.js"></script>
 
 
 
@@ -25,30 +26,47 @@ ShareTea - Union City - Careers
 <header class="row"> <!-- header begin-->
   <div class="column small-12 medium-1 large-1">
     <p> &nbsp;</p></div>
-  <div class=" column small-12 medium-1 large-3">
-    <img src="images/sharetealarge.png" alt="sharetea logo"></a>
+  <div class=" column small-12 medium-3 large-3 border-right">
+    <img src="images/sharetealarge.png" alt="sharetea logo">
   </div>
 
-
-  <div class="column small-12 medium-9 large-7">
+  <div class="column small-12 medium-3 large-3">
     <h1> Careers </h1>
   </div>
 
-
-  <div class=" column small-12 medium-1 large-1">
+  <div class="column small-12 medium-1 large-1">
     <p> &nbsp;</p>
   </div>
 
-</header> <!--header end-->
+<div class="column small-12 medium-3 large-3">
+  <nav>
+    <a href="pages/index.html">Home
+    </a>
+    <a href="bio.html"> About</a>
+    <a href="menu.html"> Menu</a>
+    <a href="careers.html">Careers</a>
+  </nav>
+</div>
 
+
+
+
+
+
+
+</header> <!--header end-->
+<div class="row">
+  <p>&nbsp;</p>
+</div>
+</div>
 <div class="row">
   <!--banner section-->
   <div class="column small-1 medium-2 large-1">
     <p> &nbsp;</p>
   </div>
   <div class="column small-10 medium-8 large-10">
-    <img src="http://placekitten.com/g/1280/200" alt="placeholder"><!--banner-->
-</a>
+    <img src="images/bannerposter.png" alt="worksharetea"><!--banner-->
+
 </div>
 
 <div class="column small-1 medium-2 large-1">
@@ -58,28 +76,13 @@ ShareTea - Union City - Careers
 </div>
 
 
-
-</div> <!--banner section end-->
-
-
-<section class="row">  <!--nav begin-->
-<div class="column small-6 medium-7 large-7">
-  <p> &nbsp;</p>
-</div>
+ <!--banner section end-->
 
 
-  <div class="column small-5 medium-4 large-4 center">
-    <nav>
-      <a href="pages/index.html">Home
-      </a>
-      <a href="bio.html"> About</a>
-      <a href="menu.html"> Menu</a>
-      <a href="careers.html">Careers</a>
-    </nav>
-  </div>
 
 
-</section> <!--nav end-->
+
+<!--nav end-->
 
 
 
@@ -89,49 +92,42 @@ ShareTea - Union City - Careers
   </div>
 
  <!--columns under banner-->
-
-  <div class="column small-12 medium-10 large-10">
-  <div class="row">
     <div class="column small-12 medium-3 large-3">
 
 <p>Do you love drinking refreshing Sharetea?</p>
   </div>
 
-  <div class="column small-12 medium-3 large-3">
-<p>Are you in search of belonging to a community? </p>
+  <div class="column small-12 medium-4 large-4">
+<p>Are you a commited worker whom enjoys meeting people and helping others?  </p>
   </div>
 
 
   <div class="column small-12 medium-3 large-3">
-<p>Are you a commited worker whom enjoys meeting people and helping others? </p>
+<p>Are you in search of belonging to a community?</p>
+
   </div>
 
-<div class="column small-12 medium-1 large-1">
+
+<div class="column small-12 medium-2 large-2">
 <p> &nbsp;</p>
-</div>
 </div>
 </section><!--attract the viewer end-->
 
 
 <div class="row"> <!-- header begin-->
 
-  <div class=" column small-12 medium-1 large-1">
+  <div class=" column small-12 medium-1 large-2">
     <p> &nbsp;</p>
   </div>
 
 
-  <div class="column small-12 medium-10 large-10">
-    <h2> Maybe joining the Sharetea Team is right for you!</h2>
-
-
-
-
-
+  <div class="column small-12 medium-10 large-8">
+    <h2> Maybe joining the Shareteam is right for you!</h2>
 
   </div>
 
 
-  <div class=" column small-12 medium-1 large-1">
+  <div class=" column small-12 medium-2 large-2">
     <p> &nbsp;</p>
   </div>
 
@@ -142,64 +138,131 @@ ShareTea - Union City - Careers
     <p>&nbsp;</p>
   </div>
 
-    <!--form stuff-->
-  <form id="application" action="apply.html">
-    <div class="column small-12 medium-10 large-8" id="apply">
- <fieldset>
-   <legend>   Apply Here!</legend>
-   <label for="name">First</label>
-   <input type="text" id="firstname" name="firstname" placeholder="First"/>
-
-   <label for="name">Last</input>
-     <input type="text" id="lastname" name="lastname" placeholder="Last"/>
-
-  <label for="age">Age:</label>
-  <input type="text" name="age" id="age" placeholder="1-99"/>
-
-  <label for="gender"> Gender: </label>
-  <input id="female" type="radio" name="gender" value="f">
-  <label for="female">Female</label>
-  <input id="male" type="radio" name="gender" value="m">
-  <label for="male">Male</label>
-
-      <label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="youremail@email.com"/>
-  </fieldset>
-
-
-
-  <fieldset>
-<p> Work Experience</p>
-<textarea name="work" cols="8" rows="4">
-  Please describe your previous work experience...</textarea>
-
-
-   <p> Tell us more about yourself and why you would be a good fit for Sharetea:</p>
-   <textarea name="information" cols="8" rows="4">
-     Please, tell me more...</textarea>
-
-
-   <p> Where did you hear about us?</p>
-   <select name="options">
-     <option value="facebook">Facebook</option>
-     <option value="twitter">Twitter</option>
-     <option value="newspaper">Newspaper</option>
-     <option value="friend">Friends</option>
-     <option value="magazine">Magazine</option>
-   </select>
-
-  <p>Attach Resume</p>
-   <input type="file" name="upload"/> <br />
-   <input type="submit" value="Upload"/>
-
- </fieldset>
-
-</form>
 </div>
-  <div class="column small-12 medium-1 large-2">
-    <p>&nbsp;</p>
+
+<div class="row">
+
+<div class="column small-12 medium-12 large-12">
+  <p> &nbsp;</p>
+</div>
+
+
+
+
+</div>
+
+
+
+<h4>Join the Sharetea Team Below</h4>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Apply Here!</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Application</h2>
+    </div>
+    <div class="modal-body">
+      <div="#pinit-wrapper" class="column small-12 medium-8 large-8">
+
+
+
+        <form id="application" action="apply.html">
+          <div class="column small-12 medium-10 large-8" id="apply">
+          </div>
+       <fieldset>
+         <legend>   Apply Here!</legend>
+         <label for="firstname">First</label>
+         <input type="text" id="firstname" name="firstname" placeholder="John"/>
+
+         <label for="lastname">Last</label>
+           <input type="text" id="lastname" name="lastname" placeholder="Jones"/>
+
+        <label for="age">Age:</label>
+        <input type="text" name="age" id="age" placeholder="1-99"/>
+
+        <label for="gender"> Gender: </label>
+
+      <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+
+
+            <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="youremail@email.com"/>
+        </fieldset>
+
+
+
+        <fieldset>
+      <p> Work Experience:</p>
+      <textarea name="work" cols="8" rows="4">
+        </textarea>
+
+
+         <p> Tell us more about yourself and why you would be a good fit for Sharetea:</p>
+         <textarea name="information" cols="8" rows="4">
+           </textarea>
+
+
+         <p> Where did you hear about us?</p>
+         <select name="options">
+           <option value="facebook">Facebook</option>
+           <option value="twitter">Twitter</option>
+           <option value="newspaper">Newspaper</option>
+           <option value="friend">Friends</option>
+           <option value="magazine">Magazine</option>
+         </select>
+
+        <p>Attach Resume</p>
+         <input type="file" name="upload"/> <br />
+         <input type="submit" value="Upload"/>
+
+         <input type="submit" value="Submit" /> <a href="submit.html">
+           
+
+       </fieldset>
+
+      </form>
+
+
+      </div>
+
+      </div>
+
+
+        <div class="column small-12 medium-2 large-2">
+          <p>&nbsp;</p>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <p> &nbsp;</p>
+    </div>
   </div>
+
 </div>
+
+
+<footer class="row">
+  <div class="column small-4 medium-4 large-4">
+      <p> &nbsp;</p>
+    </div>
+
+    <div class="column small-4 medium-4 large-4">
+    <h6> Sharetea &copy; 2017</h6>
+    </div>
+
+    <div class="column small-4 medium-4 large-4">
+      <p> &nbsp; </p>
+    </div>
+  </footer>
 
 
 
