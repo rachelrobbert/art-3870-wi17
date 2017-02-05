@@ -1,0 +1,46 @@
+/* Open page */
+#open {
+     animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+        /* you could also use milliseconds (ms) or something like 2.5s */
+     -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+   }
+
+   @keyframes colorchange
+   {
+     0%   {background: pink;}
+     25%  {background: lightyellow;}
+     50%  {background: lightblue;}
+     75%  {background: lightgreen;}
+     100% {background: pink;}
+   }
+
+   @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+   {
+     0%   {background: pink;}
+     25%  {background: lightyellow;}
+     50%  {background: lightblue;}
+     75%  {background: lightgreen;}
+     100% {background: pink;}
+   }
+   /* home page */
+.image { display: block;
+   width: 50%;
+   margin: 0 auto;
+}
+.hook{
+  display: flex;
+  margin-left: 10px;
+
+}
+$responsive-embed-ratios:{
+  default: 16 by 9,
+  vertical: 9 by 16,
+  panorama: 256 by 81,
+  square: 1 by 1,
+}
+.footer{
+  text-align: center;
+}
+.icons{
+  display: inline;
+}
