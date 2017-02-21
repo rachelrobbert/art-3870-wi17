@@ -1,0 +1,416 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tells computer to not shrink to scale, foundations takes care of it-->
+
+
+<title>
+Animation - Rachel Robbert -  De Stijl
+</title>
+
+
+<style>
+
+h1{
+  font-family:serif Georgia;
+  font-size: 300%;
+}
+
+p{
+  font-family: serif Georgia;
+  font-size: 110%
+}
+
+h6{
+  font-family: serif Georgia;
+  font-size: 100%;
+}
+
+#text{
+  position: relative;
+  width:800px;
+  height: 300px;
+  padding:10px;
+  margin: 50px auto;
+}
+
+#right{
+  text-align: right;
+  font-variant:small-caps;
+  font-style:italic;
+}
+
+body{
+color: white;
+  background-color: black;
+}
+
+.largebox{
+  background-color: white;
+  position: relative;
+  padding: 0;
+  margin: 100px auto;
+  border: none;
+  width: 1000px;
+  height: 1000px;
+
+}
+
+#box1{
+  background-color: red;
+  position: absolute;
+  padding: 0;
+  margin: 0 0 ;
+  border: black solid 10px;
+  width: 400px;
+  height:400px;
+  -webkit-animation-name: box-1;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: reverse;
+
+}
+
+@keyframes box-1{
+  0%{left:0px; top:0px;}
+  25%{ left:600px; top:0px;}
+  50%{ left: 600px; top:600px;}
+  75%{left:0px;top:600px;}
+  100%{left:0px; top:0px;}
+}
+
+#box2{
+  z-index:15;
+  background-color: blue;
+  position: absolute;
+  padding: 0;
+  margin: 0px 500px;
+  border: black solid 10px;
+  width: 300px;
+  height:300px;
+  -webkit-animation-name: box-2;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+
+@keyframes box-2{
+  0%{left:0px; top:0px;}
+  25%{ left:-500px; top:0px;}
+  50%{ left: -500px; top:500px;}
+  75%{left:200px;top:500px;}
+  100%{left:0px; top:0px;}
+}
+
+#box3{
+  z-index:13;
+  background-color: yellow;
+  position: absolute;
+  padding: 0;
+  margin: 400px 0;
+  border: black solid 10px;
+  width: 200px;
+  height:200px;
+  -webkit-animation-name: box-3;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+
+@keyframes box-3{
+  0%{left:0px; top:0px;}
+  25%{ left:800px; top:0px;}
+  50%{ left: 800px; top:300px;}
+  75%{left:300px;top:300px;}
+  100%{left:0px; top:0px;}
+}
+
+#box4{
+  background-color:white;
+  position: absolute;
+  padding: 0;
+  margin: 0 800px;
+  border: black solid 10px;
+  width: 200px;
+  height:500px;
+  -webkit-animation-name: box-4;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: reverse;
+
+}
+@keyframes box-4{
+  0%{left:0px; top:0px;}
+  30%{ left:-800px; top:0px;}
+  50%{ left: -400px; top:500px;}
+  60%{left:-400px;top:0px;}
+  100%{left:0px; top:0px;}
+}
+
+#box5{
+  z-index:11;
+  background-color: black;
+  position: absolute;
+  padding: 0;
+  margin: 400px 250px;
+  border: black solid 10px;
+  width: 50px;
+  height:200px;
+  -webkit-animation-name: box-5;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes box-5{
+  0%{left:0px; top:0px;}
+  25%{ left:-200px; top:0px;}
+  50%{ left: -200px; top:400px;}
+  75%{left:600px;top:000px;}
+  100%{left:0px; top:0px;}
+}
+
+#box6{
+  background-color: blue;
+  position: absolute;
+  padding: 0;
+  margin: 600px 0;
+  border: black solid 10px;
+  width: 800px;
+  height:300px;
+  -webkit-animation-name: box-6;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:reverse;
+}
+
+@keyframes box-6{
+  0%{left:0px; top:0px;}
+  25%{ left:100px; top:0px;}
+  50%{ left: 100px; top:-600px;}
+  75%{left:0px;top:100px;}
+  100%{left:0px; top:0px;}
+}
+
+#box7{
+  background-color: black;
+  position: absolute;
+  padding: 0;
+  margin: 400px 0 0 800px;
+  border: black solid 10px;
+  width: 200px;
+  height:600px;
+  -webkit-animation-name: box-7;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:reverse;
+
+}
+
+@keyframes box-7{
+  0%{left:0px; top:0px;}
+  25%{ left:-700px; top:0px;}
+  50%{ left: -800px; top:-400px;}
+  75%{left:-100px;top:-400px;}
+  100%{left:0px; top:0px;}
+}
+#box8{
+  background-color: white;
+  position: absolute;
+  padding: 0;
+  margin: 900px 0;
+  border: black solid 10px;
+  width: 700px;
+  height:100px;
+  -webkit-animation-name: box-8;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:reverse;
+
+}
+@keyframes box-8{
+  0%{left:0px; top:0px;}
+  25%{ left:200px; top:0px;}
+  50%{ left: 200px; top:-400px;}
+  75%{left:200px;top:-400px;}
+  100%{left:0px; top:0px;}
+}
+#box9{
+background-color: black;
+  position:absolute;
+  padding: 0;
+  margin: 0 400px;
+  border: black solid 10px;
+  width: 100px;
+  height:400px;
+  -webkit-animation-name: box-9;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:reverse;
+}
+@keyframes box-9{
+  0%{left:0px; top:0px;}
+  25%{ left:-100px; top:0px;}
+  50%{ left: 200px; top:200px;}
+  75%{left:-100px;top:600px;}
+  100%{left:0px; top:0px;}
+}
+#box10{
+  background-color: red;
+  position: absolute;
+  padding: 0;
+  margin: 300px 500px;
+  border: black solid 10px;
+  width: 300px;
+  height:100px;
+  -webkit-animation-name: box-10;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: reverse;
+
+}
+@keyframes box-10{
+  0%{left:0px; top:0px;}
+  25%{ left:-300px; top:-200px;}
+  50%{ left: -300px; top:600px;}
+  75%{left:-100px;top:600px;}
+  100%{left:0px; top:0px;}
+}
+
+#box11{
+  background-color: yellow;
+  position: absolute;
+  padding: 0;
+  margin: 0px 800px;
+  border: black solid 10px;
+  width: 200px;
+  height:50px;
+  -webkit-animation-name: box-11;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+
+@keyframes box-11{
+  0%{left:0px; top:0px;}
+  25%{ left:-800px; top:0px;}
+  50%{ left: -800px; top:900px;}
+  75%{left:-800px;top:300px;}
+  100%{left:0px; top:0px;}
+}
+
+
+#box12{
+  background-color: red;
+  position: absolute;
+  padding: 0;
+  margin: 900px 700px;
+  border: black solid 10px;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: box-12;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes box-12{
+  0%{left:0px; top:0px;}
+  25%{ left:200px; top:0px;}
+  50%{ left: 100px; top:-900px;}
+  75%{left:-700px;top:-300px;}
+  100%{left:0px; top:0px;}
+}
+
+footer{
+  text-align: center;
+}
+</style>
+</head>
+
+
+<body>
+<header>
+  <div id="text">
+  <h1 class="head" >
+    De Stijl</h1>
+
+    <p> “1. There is an old and a new consciousness of time. The old is connected with the individual. The new is connected with the universal. The struggle of the individual against the universal is revealing itself in the world of was as well as in the art of the present day. 2. The war is destroying the old world and its contents: individual domination in every state. 3. The new art has brought forward what the new consciousness of time contains: a balance between the universal and the individual. 4. The new consciousness is prepared to realize the internal life as well as the external life. 5. Traditions, dogmas, and the domination of the individual are opposed to this realization. 6. The founders of the new plastic art, therefore, call upon all who believe in the reformation of art and culture to eradicate these obstacles to development, as in the new plastic art (by excluding natural form) they have eradicated that which blocks pure artistic expression, the ultimate consequence of all concepts of art. “
+    </p>
+    <p id="right"> - van Doesburg, 1918 Manifesto</p>
+
+</div>
+
+
+</header>
+
+
+
+
+
+<div class="largebox"> <!--large box begin-->
+  <div id="box1"> <!--box 1 -->
+
+</div>
+
+
+<div id="box2">  <!--box 2-->
+
+</div>
+
+<div id="box3">  <!--box 3-->
+
+</div>
+
+
+<div id="box4"> <!--box 4 -->
+
+</div>
+
+<div id="box5">  <!--box five-->
+
+</div>
+
+<div id="box6">  <!--box six-->
+
+</div>
+
+<div id="box7">  <!--box seven-->
+
+</div>
+
+
+<div id="box8"> <!--boxeight-->
+
+</div>
+
+
+<div id="box9">  <!--box nine-->
+
+</div>
+
+<div id="box10">  <!--box ten-->
+
+</div>
+
+
+<div id="box11">  <!--box ten-->
+
+</div>
+
+
+<div id="box12">  <!--box ten-->
+
+</div>
+
+</div><!--end large box-->
+
+
+<footer>
+  <h6>Rachel Robbert 2017 &copy; </h6>
+
+</footer>
+
+</body>
+
+
+
+</html>
