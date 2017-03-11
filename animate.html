@@ -3,7 +3,7 @@
 <html class="no-js" lang="en" dir="ltr">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tells computer to not shrink to scale, foundations takes care of it-->
-
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
 
 <title>
 Animation - Rachel Robbert -  De Stijl
@@ -12,18 +12,37 @@ Animation - Rachel Robbert -  De Stijl
 
 <style>
 
+nav{
+  padding-right: 20%;
+  font-size: 130%;
+  font-family: 'Fira Sans Condensed', sans-serif
+}
+
+.right{
+  text-align: right;
+top:0;
+left:0;
+z-index: 99;
+  position: fixed;
+  width: 100%;
+  border: black solid 2px;
+  background-color: white;
+  height: 45px;
+}
+
+
 h1{
-  font-family:serif Georgia;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 300%;
 }
 
 p{
-  font-family: serif Georgia;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 110%
 }
 
 h6{
-  font-family: serif Georgia;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 100%;
 }
 
@@ -329,7 +348,16 @@ footer{
 
 <body>
 <header>
+
+  <nav class="right">
+    <a href="index.html"> Home</a>
+    <a href="portfolio.html">Portfolio</a>
+  </nav>
+
+
   <div id="text">
+
+
   <h1 class="head" >
     De Stijl</h1>
 

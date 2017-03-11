@@ -1,0 +1,139 @@
+body{
+  height:10000px;
+
+
+}
+/* building the background with multiple css backgrounds*/
+
+html, body {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-width: 1024px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+
+body{  background-image:   url("../images/dirt.png"),
+   url("../images/clouds.png"),
+
+  url("../images/clouds.png");
+
+  background-position: 20px 300px, 0 200px, left top;
+
+  background-repeat: repeat-x;
+
+  background-color:lightgreen;
+}
+
+
+
+/*top wrapper*/
+#wrapper { border: red 1px solid;
+
+  width:900px;
+  margin: 0 auto;
+  height: 9000px;
+  position: relative;
+  border-radius: 25px;
+
+}
+
+#headline{z-index: 100;
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+  background-color: white;
+ position: absolute;
+ left:50%;
+  margin-left:-50px;
+   top:200px;
+
+}
+
+h2{
+  font-color:black;
+  text-align: center;
+}
+
+.tint{ background-color:black;
+  opacity: .5;
+}
+
+
+div#zone1, #zone2, #zone3, #zone4, #zone5{
+  height: 500px;
+  width: 900px;
+
+
+}
+
+
+#text1{
+  width: 400px;
+  height: 200px;
+  font-size: 130%;
+  font-family: 'Indie Flower', cursive;
+  margin-left: -1200px;
+  top: 200px;
+  position: relative;
+
+
+
+}
+
+#text2{ border: red solid 1px;
+  width: 400px;
+  height: 200px;
+  font-size: 130%;
+  font-family: 'Indie Flower', cursive;
+  text-align: right;
+  margin-right: 0;
+  top: 200px;
+  position: relative;
+
+
+
+}
+
+
+
+/* bottom wrapper*/
+#wrapper2{
+
+  width: 900px;
+  height: 500px;
+  border: 1px solid red;
+  position: relative;
+  left: 50%;
+  margin-left: -450px;
+  top: 50px;
+  border-radius: 25px;
+}
+
+#bottombar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: grey;
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+  top: 50px;
+  z-index:50;
+  opacity: .8
+}
+
+#princess{
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 75px;
+  background-color: magenta;
+  left: 50%;
+  margin-left: -25px;
+  top: 50px;
+  position: absolute;
+}

@@ -1,34 +1,121 @@
 /*this is my stylesheet for my homepage*/
-/*
-*{
-  outline: 1px solid red;
-} /* helps to show me where everything is in the boxes*/ */
 
-/* header styles*/
 
-/* footer styles*/
+#back{
+  background-image:url(../images/background.jpg);
+}
+#back2{
+  background-image:url(../images/background2.jpg);
+}
 
-/* nav styles*/
+#blue{
+  background-color:#49BAB8;
+}
+
+.left{
+  position:fixed;
+  top: 0;
+  left:20%;
+  text-align: left;
+}
+
+nav{
+
+  text-align: right;
+  opacity: 1;
+  font-size: 130%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  position:fixed;
+  top:0;
+  left:65%;
+  padding-right: 15%;
+}
+a:link{
+  color:#00704C;
+}
+a:active {
+  color: #143332;
+}
+a:hover {
+  color: #143332;
+}
+
+a:visited{
+  color:#1C698A;
+}
+
+.top{
+
+  top:0;
+  left:0;
+  z-index: 98;
+  position: fixed;
+  width: 100%;
+  border: #37755D solid 2px;
+  height: 45px;
+  background-image:url(../images/background2.jpg);
+}
+
+
+
 
 body{
-  background-image:repeating-linear(../images/headerlarge.jpg);
+background-color: #A4FFF7;
 }
 
 
 h1{
+  font-color:#1C3D3A;
+  text-align: center;
   font-family: 'Averia Serif Libre', cursive;
   font-size: 400%;
 }
 
+#works{
+  text-align: left;
+}
+
 h2{
+  font-color:#1C3D3A;
+  text-align: center;
   font-family: 'Averia Serif Libre', cursive;
   font-size: 200%;
 
 }
 
-h6{
+h3{
+font-family: 'Averia Serif Libre', cursive;
+font-size: 150%;
+padding: 20px;
+}
+
+
+
+h6{font-color:#35786D;
   font-family: 'Cabin Sketch', cursive;
   font-size: 100%;
+}
+
+p{
+  font-family: 'Averia Serif Libre', cursive;
+   font-size: 120%;
+   padding: 20px;
+
+
+}
+
+
+ul{
+   padding: 10px;
+}
+
+
+
+li{
+  font-family: 'Averia Serif Libre', cursive;
+   font-size: 110%;
+   padding: 10px;
+
 
 }
 
@@ -43,6 +130,12 @@ nav{
   font-family: 'Cabin Sketch', cursive;
 }
 
+#underline{
+  text-decoration: underline;
 
+}
+#center{
+  text-align: left;
+}
 
 /* main body styles*/
