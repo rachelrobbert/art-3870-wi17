@@ -286,7 +286,7 @@ margin: 50px auto;
   height:50px;
   left: 740px;
   top: 370px;
-  position:absolute;
+  position:relative;
   z-index: 90;
    font-family: 'Indie Flower', cursive;
    border-radius:10px;
@@ -294,6 +294,10 @@ margin: 50px auto;
    border: #99ccff solid 1px;
 }
 
+.iframe{
+  margin: 50px auto;
+}
+}
 
 
 a:link{
