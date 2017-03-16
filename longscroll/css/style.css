@@ -31,7 +31,7 @@ p{
   color: black;
    font-size: 200%;
  font-family: 'Indie Flower', cursive;
-
+padding: 10px;
 }
 
 
@@ -65,7 +65,10 @@ h1{
 
 h2{
   font-color:black;
+   font-family: 'Indie Flower', cursive;
+   font-size: 100%;
   text-align: center;
+
 }
 
 #arrowbox{
@@ -99,6 +102,7 @@ overflow: hidden;
 }
 
 
+
 /*beginning of the moving parts in wrapper1*/
 
 #text1{
@@ -115,13 +119,13 @@ overflow: hidden;
 }
 
 #intro{
-  padding:10px;
+  padding: 2px;
   width: 600px;
   height: 300px;
   left: 120px;
   top: 0px;
   position: relative;
-z-index: 89;
+
 border-radius:25px;
 background-color: #99ccff;
 z-index:100;
@@ -213,7 +217,7 @@ z-index:86;
   width: 600px;
   height: 200px;
 
-  left: -20px;
+  left: -100px;
   top: 4200px;
   position: relative;
 z-index:85;
@@ -224,12 +228,12 @@ z-index:85;
 
 #text8{
   background-color:
-  width: 400px;
+  width: 100px;
   height: 300px;
 
   text-align: left;
   left: -400px;
-  top: 4900px;
+  top: 5050px;
   position: relative;
 background-color: #99ccff;
 border-radius: 25px;
@@ -239,55 +243,58 @@ z-index:84;
 
 }
 
-#absolute{
-  position: absolute;
-  left: 200px;
-  top: 100px;
-  width: 600px;
-  height: 600px;
-margin: auto 0;
-}
 
 #name{
   text-align: center;
-  position relative;
-  left: 200px;
-top: 100px;
-margin: 0 auto;
+  position: relative;
+margin: 50px auto;
+font-size: 150%;
+
+
 }
+
+
 
 #story{
   text-align: left;
-  width: 300px;
-  height: 200px;
+  width:800px;
+  height: 500px;
   position: relative;
-  margin: 0 auto;
+  margin: 100px auto;
+  border-radius:25px;
+  background-color: #99ccff;
+  border: #99ccff solid 1px;
 
 }
 
 
 #abouttitle{
-  font-size: 110%
   width: 300px;
   height:200px;
-margin: 0 auto;;
-  text-align: center;
+margin: 50px auto;
   position: relative;
+  font-size: 350%;
+  text-align: center;
+
 }
 
 
 
 #aboutme{
-  font-size: 110%;
-  width: 100px;
-  height: 100px;
+  font-size: 200%;
+  width: 75px;
+  height:50px;
   left: 740px;
-  top: 400px;
+  top: 370px;
   position:absolute;
   z-index: 90;
    font-family: 'Indie Flower', cursive;
-
+   border-radius:10px;
+   background-color: #99ccff;
+   border: #99ccff solid 1px;
 }
+
+
 
 a:link{
   color: black;
@@ -357,7 +364,7 @@ a:hover{white;}
 #prince{
   position: relative;
   left:1000px;
-  top: -100px;
+  top: -450px;
   height:230px;
   z-index:100;
 }
@@ -397,4 +404,17 @@ a:hover{white;}
   left:-450px;
   top:0;
   z-index:48;
+}
+
+.right{
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%;
+  position: relative;
+  margin: 50px auto;
+  border-radius:10px;
+  background-color: #99ccff;
+  border: #99ccff solid 1px;
+  width: 100px;
+  height: 70px;
+
 }
