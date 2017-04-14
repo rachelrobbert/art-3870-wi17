@@ -95,9 +95,10 @@ left: 100px;
 
 
 div#zone1, #zone2, #zone3, #zone4, #zone5, #zone6, #zone7, #zone8, #zone9, #zone10, #zone11, #zone12{
-  height: 400px;
+  height: 200px;
   width: 900px;
 overflow: hidden;
+
 
 }
 
@@ -106,14 +107,14 @@ overflow: hidden;
 /*beginning of the moving parts in wrapper1*/
 
 #text1{
-  width: 400px;
-  height: 200px;
-
-  left: 600px;
-  top: 400px;
+  width: 500px;
+  height: 950px;
+  left: 570px;
+  top: 450px;
   position: relative;
   z-index: 90;
-
+  background-color: #99ccff;
+  border-radius: 25px;
 
 
 }
@@ -139,7 +140,7 @@ z-index:100;
   height: 500px;
 opacity: .7;
   left: -20px;
-  top: 100px;
+  top: 0px;
   position: relative;
 z-index: 89;
 
@@ -148,15 +149,17 @@ z-index: 89;
 }
 
 #text2{
-  width: 400px;
-  height: 200px;
+  width: 430px;
+  height: 650px;
 
   text-align: left;
   left: -100px;
-  top: 700px;
+  top:600px;
   position: relative;
 
 z-index: 88;
+background-color: #99ccff;
+border-radius: 25px;
 
 }
 
@@ -164,36 +167,41 @@ z-index: 88;
 
 #text3{
   width: 400px;
-  height:200px;
+  height:800px;
   left: 600px;
-  top: 1400px;
+  top: 700px;
   position: relative;
 z-index:87;
+background-color: #99ccff;
+border-radius: 25px;
 
 
 }
 
 #text4{
   width: 400px;
-  height: 200px;
+  height: 650px;
 
   text-align: left;
   left: -100px;
-  top: 2100px;
+  top: 800px;
   position: relative;
 
 z-index:86;
+background-color: #99ccff;
+border-radius: 25px;
 
 }
 
 #text5{
   width: 400px;
-  height: 200px;
+  height: 1020px;
   left: 600px;
-  top: 2800px;
+  top: 700px;
   position: relative;
 z-index:85;
-
+background-color: #99ccff;
+border-radius: 25px;
 
 
 }
@@ -201,39 +209,38 @@ z-index:85;
 
 #text6{
   width: 400px;
-  height: 200px;
-
+  height: 1020px;
   text-align: left;
   left: -100px;
-  top: 3500px;
+  top: 500px;
   position: relative;
 z-index:86;
-
+background-color: #99ccff;
+border-radius: 25px;
 
 }
 
 
 #text7{
-  width: 600px;
-  height: 200px;
+  width: 500px;
+  height:980px;
 
-  left: -100px;
-  top: 4200px;
+  left: 550px;
+  top: 500px;
   position: relative;
 z-index:85;
-
+background-color: #99ccff;
+border-radius: 25px;
 
 
 }
 
 #text8{
-  background-color:
-  width: 100px;
-  height: 300px;
-
+  width: 500px;
+  height: 600px;
   text-align: left;
-  left: -400px;
-  top: 5050px;
+  left: -100px;
+  top: 200px;
   position: relative;
 background-color: #99ccff;
 border-radius: 25px;
@@ -311,7 +318,7 @@ a:hover{white;}
 #cottoncandy{
   position: relative;
   left: -20px;
-  top: 400px;
+  top: -200px;
   height:200px;
   z-index:81;
 }
@@ -320,7 +327,7 @@ a:hover{white;}
 #ghost{
   position: relative;
   left: 600px;
-  top: 700px;
+  top: 0px;
   height:350px;
   z-index:80;
 }
@@ -328,7 +335,7 @@ a:hover{white;}
 #liopleurodon{
   position: relative;
   left: -300px;
-  top: 1500px;
+  top: 100px;
   height:300px;
   z-index:79;
 }
@@ -336,7 +343,7 @@ a:hover{white;}
 #goblin{
   position: relative;
   left: 600px;
-  top: 2100px;
+  top: 300px;
   height:400px;
   z-index:78;
 }
@@ -344,7 +351,7 @@ a:hover{white;}
 #octopus{
   position: relative;
   left: -300px;
-  top: 2800px;
+  top: 0px;
   height:350px;
   z-index:77;
 }
@@ -352,22 +359,22 @@ a:hover{white;}
 #troll{
   position: relative;
   left: 600px;
-  top: 3500px;
+  top: -100px;
   height:300px;
   z-index:76;
 }
 
 #mushroom{
   position: relative;
-  left: 600px;
-  top: 4200px;
+  left: 100px;
+  top: -200px;
   height:500px;
   z-index:75;
 }
 
 #prince{
   position: relative;
-  left:1000px;
+  left:800px;
   top: -450px;
   height:230px;
   z-index:100;
