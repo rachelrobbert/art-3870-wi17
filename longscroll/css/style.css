@@ -150,7 +150,7 @@ z-index: 89;
 
 #text2{
   width: 430px;
-  height: 650px;
+  height: 690px;
 
   text-align: left;
   left: -100px;
@@ -167,7 +167,7 @@ border-radius: 25px;
 
 #text3{
   width: 400px;
-  height:800px;
+  height:980px;
   left: 600px;
   top: 700px;
   position: relative;
@@ -180,7 +180,7 @@ border-radius: 25px;
 
 #text4{
   width: 400px;
-  height: 650px;
+  height: 790px;
 
   text-align: left;
   left: -100px;
@@ -195,7 +195,7 @@ border-radius: 25px;
 
 #text5{
   width: 400px;
-  height: 1020px;
+  height: 1160px;
   left: 600px;
   top: 700px;
   position: relative;
@@ -209,7 +209,7 @@ border-radius: 25px;
 
 #text6{
   width: 400px;
-  height: 1020px;
+  height: 1220px;
   text-align: left;
   left: -100px;
   top: 500px;
@@ -237,7 +237,7 @@ border-radius: 25px;
 
 #text8{
   width: 500px;
-  height: 600px;
+  height:1070px;
   text-align: left;
   left: -100px;
   top: 200px;
@@ -292,7 +292,7 @@ margin: 50px auto;
   width: 75px;
   height:50px;
   left: 740px;
-  top: 370px;
+  top: 1500px;
   position:relative;
   z-index: 90;
    font-family: 'Indie Flower', cursive;
@@ -413,7 +413,7 @@ a:hover{white;}
   position: relative;
   height: 800px;
   left:-450px;
-  top:0;
+  top:1172px;
   z-index:48;
 }
 
